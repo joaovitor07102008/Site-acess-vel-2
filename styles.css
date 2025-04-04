@@ -28,7 +28,7 @@ section {
 }
 
 .nav-link {
-    color: #12da1c;
+    color: #ec1f10;
     font-weight: 600;
 }
 
@@ -69,7 +69,7 @@ section {
 }
 
 .display-4 {
-    text-shadow: -5px 5px var(--laranja-claro);
+    text-shadow: -5px 5px var(--azul-claro);
 }
 #RedbullRacing {
     position: relative;
@@ -111,10 +111,14 @@ h2 {
 
 .formulario {
     background-color: #3291da;
-    padding: 2rem;
+    padding: 5rem 3rem; /* Aumenta a altura e largura do quadro */
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(180, 8, 8, 0.979);
     font-weight: bold;
+    font-size: 1.8em; /* Aumenta o tamanho da fonte dentro do quadro */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 
 .formulario button {
